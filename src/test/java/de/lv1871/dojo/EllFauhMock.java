@@ -1,7 +1,9 @@
 package de.lv1871.dojo;
 
-// In dieser Klasse soll implementiert werden. Die API darf auch (muss aber nicht) geändert werden.
-
+// In dieser Klasse soll fett implementiert werden.
 public class EllFauhMock {
-    // TODO implement me
+    public static <T> T mock(Class<T> clazz, String methodName, Object returnValue) {
+        // TODO implement me
+        return null;
+    }
 }
