@@ -75,8 +75,6 @@ class MyClassTest {
         assertEquals("my static method!", MyClass.myStaticMethod());
     }
 
-    // TODO obige Test-Methode duplizieren und mit EllFauhMock implementieren!
-
     @Test
     void call_mocked_myStaticMethod() {
         try (MockedStatic<MyClass> myClassStaticMock = mockStatic(MyClass.class)) {
